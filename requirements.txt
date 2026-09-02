@@ -1,0 +1,7 @@
+streamlit
+sentence-transformers
+groq
+joblib
+torch
+torchvision
+einops
