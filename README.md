@@ -66,3 +66,17 @@ The objective is to build a system that can:
                         │
                         ▼
                Supportive Response
+
+Project Folder Structure
+
+mental-health-support-assistant/
+│
+├── app.py
+├── mental_health_svm_artifacts.pkl
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── .streamlit/
+    └── secrets.toml
+secrets.toml is a local secret file that should include the Groq API Key in this format : GROQ_API_KEY = " "
