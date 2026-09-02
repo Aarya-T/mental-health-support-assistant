@@ -37,20 +37,6 @@ The objective is to build a system that can:
 | 4 | Anxiety |
 
 ---
-## Project Folder Structure
-```text
-mental-health-support-assistant/
-│
-├── app.py
-├── mental_health_svm_artifacts.pkl
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-└── .streamlit/
-    └── secrets.toml
-```
-secrets.toml is a local secret file that should include the Groq API Key in this format : GROQ_API_KEY = " "
 
 ## 🏗️ System Architecture
 
@@ -81,8 +67,51 @@ secrets.toml is a local secret file that should include the Groq API Key in this
                         ▼
                Supportive Response
 
+```
+## Installation
+1. Clone the repository
+```text
+    git clone https://github.com/Aarya-T/mental-health-support-assistant.git
+
+    cd mental-health-support-assistant
+```
+2. Install dependencies
+```text
+    pip install -r requirements.txt
+```
+The required packages include:
+```text
+streamlit
+sentence-transformers
+groq
+joblib
+torch
+torchvision
+einops
+```
+## Project Folder Structure
+```text
+mental-health-support-assistant/
+│
+├── app.py
+├── mental_health_svm_artifacts.pkl
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── .streamlit/
+    └── secrets.toml
+```
+secrets.toml is a local secret file that should include the Groq API Key in this format : GROQ_API_KEY = " "
 
 
+▶️ Run the Application
+
+Start Streamlit with:
+```text
+    streamlit run app.py
+```
+The application will open in your browser.
 
 
 
