@@ -1,3 +1,7 @@
+LIVE DEMO : mental-health-support-assistant.streamlit.app
+
+
+
 # 🧠 MindCare AI — Mental Health Support Assistant
 
 MindCare AI is a mental-health NLP project that classifies Reddit-style text into one of five mental-health-related categories and generates a concise, supportive response using a Large Language Model (LLM).
